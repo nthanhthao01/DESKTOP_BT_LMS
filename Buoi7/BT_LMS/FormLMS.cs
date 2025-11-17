@@ -91,7 +91,7 @@ namespace BT_LMS
         {
             if (weatherServerProcess == null || weatherServerProcess.HasExited)
             {
-                string serverPath = GetAppPath("WeatherServer.exe");
+                string serverPath = GetAppPath("WeatherServer.exe", "WeatherServer_DaLop");
 
                 weatherServerProcess = new Process();
                 weatherServerProcess.StartInfo.FileName = serverPath;
