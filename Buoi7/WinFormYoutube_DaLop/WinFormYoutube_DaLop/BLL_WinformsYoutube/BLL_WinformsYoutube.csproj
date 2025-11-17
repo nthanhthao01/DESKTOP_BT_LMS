@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DAL_WinfromsYoutube\DAL_WinfromsYoutube.csproj" />
+    <ProjectReference Include="..\DTO_WinformsYoutube\DTO_WinformsYoutube.csproj" />
+  </ItemGroup>
+
+</Project>

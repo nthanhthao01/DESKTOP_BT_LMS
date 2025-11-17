@@ -1,0 +1,48 @@
+# Visual Studio build folders
+bin/
+obj/
+.vs/
+
+# User-specific files
+*.user
+*.suo
+
+# Build artifacts
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+
+# WebView2 cache
+*/WebView2/
+*.dat
+*.idx
+*.lock
+*.leveldb/
+
+# SQLite or temp files
+*.db
+*.db-shm
+*.db-wal
+
+
+# Ignore WebView2 runtime folders
+**/EBWebView/
+**/WebView2/
+**/Default/
+**/leveldb/
+**/Session Storage/
+**/Service Worker/
+**/Local Storage/
+**/shared_proto_db/
+**/Trust Protection Lists/
+**/PKIMetadata/
+**/Domain Actions/
+**/*.dat
+**/*.idx
+**/*.lock
+**/*.old
+**/CURRENT
+**/LOG
+**/LOG.old
